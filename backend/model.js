@@ -26,4 +26,4 @@ const UserSchema = new mongoose.Schema({
   timestamps: true, // Adds createdAt and updatedAt fields
 });
 
-module.exports = mongoose.model('User', UserSchema);
+module.exports = mongoose.model('TrackerUser', UserSchema);
