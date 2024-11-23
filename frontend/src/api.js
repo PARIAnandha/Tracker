@@ -1,6 +1,6 @@
 import axios from 'axios'; // Correctly import axios
 
-const URL = "http://localhost:5000"; // Base URL for your backend
+const URL = "https://tracker-backend-tntf.onrender.com"; // Base URL for your backend
 
 // GET request function to fetch users
 export const getData = async () => {
